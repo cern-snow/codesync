@@ -1,0 +1,12 @@
+# temporary/bytecode files
+*~
+.*.swp
+*.pyc
+*.pyo
+__pycache__/
+
+# IDE files
+.project
+.pydevproject
+.settings
+*.sublime-*
