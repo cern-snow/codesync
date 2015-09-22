@@ -54,9 +54,13 @@ class TableInfo(object):
         "sysevent_script_action" : ("name", "script", "js"), #Script Actions
         "sys_transform_map" :  ("name", "script", "js"), #Transform Maps
         "sys_transform_script" :  ("sys_id", "script", "js"), #Transform Scripts
+        "sys_transform_entry" :  ("map", "source_script", "js"), #Tranform Field Map
         "sys_web_service" :  ("name", "script", "js"), #Scripted Web Service
         "sys_script_ajax" : ("name", "script", "js"), #AJAX Script
         "sys_script_fix" : ("name", "script", "js"), #Fix Script
+        "metric_definition" :  ("name", "script", "js"), #Metric Definition
+        "sys_report_custom_chart" :  ("name", "render_script", "js"), #Custom chart
+        "sys_script_email" :  ("name", "script", "js"), #Email Script
     }
 
     @classmethod
